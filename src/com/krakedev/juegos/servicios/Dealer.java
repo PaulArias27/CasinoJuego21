@@ -8,6 +8,12 @@ public class Dealer {
 	
 	private ArrayList<Carta> naipe;
 	
+	//constructor
+	public Dealer() {
+		naipe = new ArrayList<>();
+		generarNaipe();
+	}
+	
 	
 	//getters and setters
 	public ArrayList<Carta> getNaipe() {
